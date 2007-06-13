@@ -1,18 +1,14 @@
-%define name	xmlppm
-%define version 0.98.2
-%define release %mkrel 3
-
-Name:		    %{name}
-Version:	    %{version}
-Release:	    %{release}
-Summary:	    XML data compression program
-URL:		    http://sourceforge.net/projects/xmlppm
-License:	    GPL
-Group:		    File tools
-Source:		    http://prdownloads.sourceforge.net/xmlppm/%{name}-%{version}-src.tar.bz2
-Patch:		    %{name}-0.98.2.gcc4.patch
+Summary:	XML data compression program
+Name:		xmlppm
+Version:	0.98.2
+Release:	%mkrel 4
+URL:		http://sourceforge.net/projects/xmlppm
+License:	GPL
+Group:		File tools
+Source:		http://prdownloads.sourceforge.net/xmlppm/%{name}-%{version}-src.tar.bz2
+Patch:		%{name}-0.98.2.gcc4.patch
 BuildRequires:	expat-devel
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 XMLPPM is a data compression program that compresses XML files from 5 to
