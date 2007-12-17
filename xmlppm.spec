@@ -8,7 +8,6 @@ Group:		File tools
 Source:		http://prdownloads.sourceforge.net/xmlppm/%{name}-%{version}-src.tar.bz2
 Patch:		%{name}-0.98.2.gcc4.patch
 BuildRequires:	expat-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 XMLPPM is a data compression program that compresses XML files from 5 to
