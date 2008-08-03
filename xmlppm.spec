@@ -1,7 +1,7 @@
 Summary:	XML data compression program
 Name:		xmlppm
 Version:	0.98.2
-Release:	%mkrel 6
+Release:	%mkrel 7
 URL:		http://sourceforge.net/projects/xmlppm
 License:	GPL
 Group:		File tools
