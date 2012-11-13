@@ -1,0 +1,35 @@
+diff -Naur xmlppm-0.98.2/src/Args.cpp xmlppm-0.98.2.gcc4/src/Args.cpp
+--- xmlppm-0.98.2/src/Args.cpp	2004-11-24 13:02:50.000000000 +0100
++++ xmlppm-0.98.2.gcc4/src/Args.cpp	2006-04-17 17:13:11.000000000 +0200
+@@ -40,7 +40,6 @@
+   int _setmode (int handle, int mode);
+   int _fileno (FILE * stream);
+ #endif
+-  char *strdup (const char *);
+ }
+ 
+ 
+diff -Naur xmlppm-0.98.2/src/EncodeSax.cpp xmlppm-0.98.2.gcc4/src/EncodeSax.cpp
+--- xmlppm-0.98.2/src/EncodeSax.cpp	2004-11-24 13:02:50.000000000 +0100
++++ xmlppm-0.98.2.gcc4/src/EncodeSax.cpp	2006-04-17 17:13:27.000000000 +0200
+@@ -39,8 +39,6 @@
+ 
+ char Extbuff[BUFFSIZE];
+ 
+-extern "C" char *strdup (const char *s);
+-
+ void
+ preloadChar (PPM_MODEL * m, xml_state * state)
+ {
+diff -Naur xmlppm-0.98.2/src/StringArray.cpp xmlppm-0.98.2.gcc4/src/StringArray.cpp
+--- xmlppm-0.98.2/src/StringArray.cpp	2004-11-24 13:02:50.000000000 +0100
++++ xmlppm-0.98.2.gcc4/src/StringArray.cpp	2006-04-17 17:15:12.000000000 +0200
+@@ -31,8 +31,6 @@
+ #include <stdio.h>
+ #include <string.h>
+ 
+-extern "C" char *strdup (const char *);
+-
+ StringArray::StringArray (int size)
+ {
+   int i;
