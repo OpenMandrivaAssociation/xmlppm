@@ -2,7 +2,7 @@ Summary:	XML data compression program
 Name:		xmlppm
 Version:	0.98.2
 Release:	9
-URL:		http://sourceforge.net/projects/xmlppm
+URL:		https://sourceforge.net/projects/xmlppm
 License:	GPL
 Group:		File tools
 Source:		http://prdownloads.sourceforge.net/xmlppm/%{name}-%{version}-src.tar.bz2
