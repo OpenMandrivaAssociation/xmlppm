@@ -7,6 +7,7 @@ License:	GPL
 Group:		File tools
 Source:		http://prdownloads.sourceforge.net/xmlppm/%{name}-%{version}-src.tar.bz2
 Patch:		%{name}-0.98.2.gcc4.patch
+BuildRequires:	make
 BuildRequires:	expat-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
